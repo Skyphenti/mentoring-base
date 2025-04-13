@@ -29,6 +29,15 @@
     outline: none;
 }
 
+* {
+    font-family: Inter;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FBFBFB;
+}
+
 input {
     @include clear-input
 }
@@ -39,10 +48,6 @@ ul, ol {
 
 button {
     @include clear-button;
-}
-
-body {
-    font-family: Inter;
 }
 
 a {
